@@ -18,18 +18,18 @@ add all these in one function called text_process , this function will remove pu
 ## Vectorization:
    CountVectorizer : We can use CountVectorizer to count the number of times a word occurs in a corpus.
    
-##TfidfTransformer:
+## TfidfTransformer:
   TfidfTransformer:We can use TfidfTransformer to count the number of times a word occurs in a corpus (only the term frequency and not the inverse), also is  normalizing the count.
   
   
-##Split the dataset into train and test:
+## Split the dataset into train and test:
 we are going to split the dataset into train and test. The test dataset is used for validating our models.
 
-##choose the model the naive classyfier :
+## choose the model the naive classyfier :
 Let’s start training our models. The  model we are going to use is Naïve Bayes.
 
-##Create a Pipeline:
+## Create a Pipeline:
 Create a pipeline containing CountVectorizer(), TfidfTransformer(), MultinomialNB() togather
 
-##Evalution:
+## Evalution:
 import classification_report , confusion_matrix to see the accuracy and f1-score 
